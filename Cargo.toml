@@ -1,0 +1,9 @@
+[package]
+name    = "git-jira"
+version = "0.1.0"
+authors = ["Matthew Gardner <mgardner@locomote.com>"]
+
+[dependencies]
+quicli  = "0.2"
+reqwest = "0.8.4"
+serde = "1"
