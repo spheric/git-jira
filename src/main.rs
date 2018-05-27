@@ -10,11 +10,6 @@ use std::env;
 /// Generates git branch names based on JIRA Issues
 #[derive(Debug, StructOpt)]
 struct Cli {
-  // Add a CLI argument `--count`/-n` that defaults to 3, and has this help text:
-  // /// How many lines to get
-  // #[structopt(long = "count", short = "n", default_value = "3")]
-  // count: usize,
-
   /// Jira issue number
   issue: String,
 }
